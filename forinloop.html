@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let a = {
+            studant1 : 99,
+            studant2 : 98,
+            studant3 : 97,
+            studant4 : 96,
+            studant5 : 95,
+            studant6 : 94,
+            hari : {
+                studant7 : 93,
+                studant8 : 92,
+                studant9 : 91
+            }
+        }
+        // console.log(a.hari.studant8);
+
+        let b = a
+        console.log(b);
+        // for(let b in a.hari){
+        //    console.log(b + a.hari [b]);
+        //  }
+            for(let b in a.hari){
+                console.log(b + a.hari[b]);
+            }
+    </script>
+    
+</body>
+</html>
